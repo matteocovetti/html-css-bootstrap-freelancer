@@ -140,22 +140,41 @@
       </section>
       <!-- contact me -->
       <section>
-          <div class="container mt-5">
-              <h3 class="text-uppercase text-center">contact me</h3>
+          <div class="container my-5">
+              <h3 class="text-uppercase text-center mb-4">contact me</h3>
               <form action="#">
                   <div class="row">
                       <!-- first name -->
-                      <div class="col-6"></div>
+                      <div class="col-6">
+                          <label class="form-label fw-bold" for="first-name">First name</label>
+                          <input class="form-control" type="text" id="first-name" placeholder="Enter your first name..." required>
+                      </div>
                       <!-- last name -->
-                      <div class="col-6"></div>
+                      <div class="col-6">
+                        <label class="form-label fw-bold" for="last-name">Last name</label>
+                        <input class="form-control" type="text" id="last-name" placeholder="Enter your last name..." required>
+                      </div>
                       <!-- email address -->
-                      <div class="col-6"></div>
+                      <div class="col-6">
+                        <label class="form-label fw-bold mt-3" for="email">Email address</label>
+                        <input class="form-control" type="text" id="email" placeholder="Enter your e-mail..." required>
+                      </div>
                       <!-- phone number -->
-                      <div class="col-6"></div>
+                      <div class="col-6">
+                        <label class="form-label fw-bold mt-3" for="phone">Phone number</label>
+                        <input class="form-control" type="text" id="phone" placeholder="(123) 1234 5677" required>
+                      </div>
                       <!-- message -->
-                      <div class="col"></div>
-                      <!-- button -->
-                      <div class="col-12"></div>
+                      <div class="col-12">
+                        <label class="form-label fw-bold mt-3" for="message">Message</label>
+                        <textarea class="form-control" id="message" cols="30" rows="5"></textarea>
+                      </div>
+                  </div>
+                  <!-- button -->
+                  <div class="row text-center mt-3">
+                    <div class="col">
+                        <button class="btn btn-info fw-bold">Send</button>
+                    </div>
                   </div>
               </form>
           </div>
